@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Leta Refresh All Tabs</title>
+<style>
+  body { max-width: 720px; margin: 40px auto; padding: 0 20px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  .updated { color: #666; font-size: 0.9rem; }
+  code { background: #f2f2f2; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy — Leta Refresh All Tabs</h1>
+<p class="updated">Last updated: August 2, 2026</p>
+
+<p>
+Leta Refresh All Tabs is a browser extension for Chrome, Edge, Brave, and other Chromium-based
+browsers that reloads every open tab in every open window with one click, with optional rules
+for which tabs to skip.
+</p>
+
+<h2>Summary</h2>
+<p>
+This extension does <strong>not</strong> collect, transmit, sell, or share any personal
+information. There is no analytics, no crash reporting, no telemetry, and no update-check
+pings of any kind — the extension never contacts any server, including one of its own. The
+only data it stores is your own reload preferences (which windows and which kinds of tabs to
+skip, and whether the extension is turned on or off), and that data never leaves your browser
+except through the browser's own, built-in sync.
+</p>
+
+<h2>What data is stored, and where</h2>
+<p>
+The extension stores a small set of on/off preferences, using the browser's built-in
+<code>chrome.storage.sync</code> API:
+</p>
+<ul>
+  <li>Whether the extension is enabled or disabled</li>
+  <li>Which windows to reload (the one you are viewing, other windows, or both)</li>
+  <li>Which kinds of tabs to skip (the active tab, pinned tabs, tabs playing sound, discarded tabs, incognito tabs)</li>
+  <li>Whether reloads should bypass the cache</li>
+</ul>
+<p>
+This storage is provided by the browser itself, not by us. If you are signed in to your
+browser, the browser vendor may sync these small preferences across your own devices the same
+way it syncs your bookmarks — the extension developer never receives, sees, or has access to
+this data on any server, because no such server exists for this extension.
+</p>
+
+<h2>What the extension accesses</h2>
+<p>
+To decide which tabs to reload and which to skip, the extension reads a small set of state
+flags on your open tabs: whether a tab is the active one in its window, pinned, currently
+playing audio, discarded, or incognito, along with which window it belongs to. It then asks
+the browser to reload the tabs that match your settings. It does <strong>not</strong> read tab
+URLs, page titles, page content, browsing history, or any personally identifiable information,
+and it does not run on, or inject anything into, any web page at all.
+</p>
+
+<h2>Permissions</h2>
+<p>
+The extension requests exactly one permission: <code>storage</code>, to remember your
+preferences. It does not request the broader <code>tabs</code> permission, no
+<code>host_permissions</code> of any kind, no <code>&lt;all_urls&gt;</code>, no
+<code>cookies</code>, and no <code>webRequest</code>. Reloading a tab and reading the state
+flags listed above are both possible without any of those.
+</p>
+
+<h2>Optional keyboard shortcut</h2>
+<p>
+The extension defines an optional keyboard shortcut for the same reload action as the popup
+button. No key combination is assigned by default — it only does anything if you deliberately
+set one yourself at <code>chrome://extensions/shortcuts</code>. Using it does not access any
+data beyond what is described above.
+</p>
+
+<h2>Link to letalab.eu</h2>
+<p>
+The extension's popup and settings page include a plain link to
+<a href="https://letalab.eu">letalab.eu</a>, which opens in a new browser tab. The link itself
+carries no tracking script or tracking parameters — clicking it is no different from typing
+the address yourself. Once you're on that site, its own privacy practices apply, separately
+from this extension.
+</p>
+
+<h2>Third parties</h2>
+<p>
+We do not share data with any third party, because we do not collect any data to share. The
+extension embeds no third-party analytics, advertising, or tracking scripts, and loads no
+remote code — every file that runs is shipped inside the extension package itself.
+</p>
+
+<h2>Security</h2>
+<p>
+The extension's full source ships inside the package you install — nothing is downloaded or
+evaluated at runtime. We welcome responsible security review; if you find a problem, please
+report it privately and with enough detail to reproduce it, via the contact below.
+</p>
+
+<h2>Children's privacy</h2>
+<p>
+The extension is not directed at children and does not knowingly collect information from
+anyone, regardless of age, since it does not collect information at all.
+</p>
+
+<h2>Changes to this policy</h2>
+<p>
+If this extension's data practices ever change, this page will be updated before the change
+takes effect, and the "Last updated" date above will be revised accordingly.
+</p>
+
+<h2>Contact</h2>
+<p>
+Questions about this policy, the extension, or a security report can be sent via
+<a href="https://letalab.eu">letalab.eu</a>.
+</p>
+
+</body>
+</html>
