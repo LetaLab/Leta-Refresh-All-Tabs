@@ -1,9 +1,8 @@
 # Leta Refresh All Tabs
 
 <p align="left">
-<img src="design/LetaRefreshAllTabs-256.png" alt="OG" width="15%">
+<img src="https://github.com/user-attachments/assets/86829c26-63eb-42f4-80c5-861d47c3982e alt="OG" width="15%">
 </p>
-
 ---
 
 <p align="center">
@@ -12,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="design/LetaRefreshAllTabs-512.png" alt="icon-512" width="220">
+  <img src="https://github.com/user-attachments/assets/e6230a1e-3fbd-48f7-965c-fdb42e52d370" alt="icon-512" width="220">
 </p>
 
 ---
@@ -31,6 +30,10 @@ Chromium-based browsers, and it's part of the LetaLab family of projects - you c
 of them at [https://LetaLab.eu](https://letalab.eu).
 
 Website is created by me and I do everything that is in my limited power to make it [safe and private](https://www.ssllabs.com/ssltest/analyze.html?d=letalab.eu&hideResults=on&latest).
+
+| SSLLabs Server testing results |
+|---|
+| <a href="https://github.com/user-attachments/assets/9fe4044b-92f6-4de6-9e65-5fbf79fb4df2"><img width="50%" alt="SSLLabs Server testing results" src="https://github.com/user-attachments/assets/9fe4044b-92f6-4de6-9e65-5fbf79fb4df2" /></a> |
 
 ![Manifest](https://img.shields.io/badge/Manifest-V3-blue)
 ![Browsers](https://img.shields.io/badge/Chrome%20%7C%20Edge%20%7C%20Brave%20%7C%20Chromium-supported-blue)
