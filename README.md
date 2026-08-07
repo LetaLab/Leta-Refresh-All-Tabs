@@ -1,7 +1,7 @@
 # Leta Refresh All Tabs
 
 <p align="left">
-<img src="https://github.com/user-attachments/assets/86829c26-63eb-42f4-80c5-861d47c3982e alt="OG" width="15%">
+<img src="https://github.com/user-attachments/assets/86829c26-63eb-42f4-80c5-861d47c3982e" alt="OG" width="15%">
 </p>
 ---
 
