@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Leta Refresh All Tabs</title>
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="header">
+    <span class="title">Leta Refresh All Tabs</span>
+    <label class="toggle" title="Enable or disable the extension">
+      <input type="checkbox" id="enabled">
+      <span class="slider"></span>
+    </label>
+  </header>
+
+  <button class="reload-button" id="reload" type="button" aria-label="Reload all tabs in all windows">
+    <img src="../icons/reload-button.png" alt="" class="reload-button-image">
+  </button>
+
+  <div class="controls">
+    <label class="control-row">
+      <span class="control-label">Reload this window</span>
+      <span class="toggle">
+        <input type="checkbox" id="reloadActiveWindow">
+        <span class="slider"></span>
+      </span>
+    </label>
+
+    <label class="control-row">
+      <span class="control-label">Reload background windows</span>
+      <span class="toggle">
+        <input type="checkbox" id="reloadInactiveWindows">
+        <span class="slider"></span>
+      </span>
+    </label>
+
+    <label class="control-row">
+      <span class="control-label" title="Ignores the cache, same as Ctrl+Shift+R">Bypass cache</span>
+      <span class="toggle">
+        <input type="checkbox" id="bypassCache">
+        <span class="slider"></span>
+      </span>
+    </label>
+  </div>
+
+  <div class="status" id="status">Saved</div>
+
+  <a class="letalab-link" href="https://letalab.eu" target="_blank" rel="noopener noreferrer">
+    <img src="../icons/Favicon_LetaLab.png" alt="" class="letalab-icon">
+    <span>Visit LetaLab.eu</span>
+  </a>
+
+  <footer class="footer">Runs locally - no tracking, no network calls</footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>
